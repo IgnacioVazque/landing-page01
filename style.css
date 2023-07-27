@@ -90,7 +90,7 @@ h1 {
 
 .hero-img img{
     width: 600px;
-    height: 400px;
+    height: 450px;
     border-radius: 30px;
 }
 
@@ -145,6 +145,47 @@ h1 {
     padding-right: 10px;
     font-family: 'Roboto', arial;
     text-align: end;
+}
+/* CONTACTO */
+.contacto{
+    background-color: #3882F6;
+    margin: 110px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.contacto-item {
+    flex: 1;
+}
+
+.contacto-txt {
+    text-align: left;
+}
+
+.contacto-txt p {
+    color: #FFFFFF;
+    margin: 5px 30px 30px 50px;
+}
+
+.contacto-txt h3 {
+    color: #FFFFFF;
+    font-family: 'roboto', arial;
+    padding: 0;
+    margin: 30px 0 0 50px;
+}
+
+.contacto-btn button {
+    color: #FFFFFF;
+    font-family: 'Roboto', arial;
+    border-color: #FFFFFF;
+    border-radius: 9px;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    font-size: 18px;
+
+
 }
 
 /* FOOTER */
